@@ -1,0 +1,3 @@
+<view class="zjxf">
+<image class="zjxf-img" src="{{zjxf.src}}"></image>
+</view>

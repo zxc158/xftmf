@@ -1,0 +1,17 @@
+<block wx:for="{{hd}}" wx:for-item="hd">
+<view class="hd">
+  <image class="hd-img" src="{{hd.pic}}"></image>
+  <view class="hd-txt1">{{hd.title}}</view>
+  <view class="hd-txt2">{{hd.keywords}}</view>
+</view>
+</block>
+<!-- <view class="hd">
+  <image class="hd-img" src="/images/hd/hd1.png"></image>
+  <view class="hd-txt1">报名到访即享精美好礼</view>
+  <view class="hd-txt2">活动时间：200/11/06-2020/12/31</view>
+</view>
+<view class="hd">
+  <image class="hd-img" src="/images/hd/hd1.png"></image>
+  <view class="hd-txt1">报名到访即享精美好礼</view>
+  <view class="hd-txt2">活动时间：200/11/06-2020/12/31</view>
+</view> -->

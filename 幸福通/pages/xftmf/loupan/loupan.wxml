@@ -1,0 +1,24 @@
+<import src="../shouye-item/shouye-item.wxml"/>
+<view class="search">
+  <view  bindtap="close">
+    <view class="select-wrap">
+      <select id="select" options="{{options}}" key="city_id" text="city_name" bind:change="change"></select>
+    </view>
+  </view>
+
+  <input type="text" placeholder="输入楼盘名称搜索" placeholder-class="placeholder" bindfocus="onBindFocus" bindconfirm="onBindConfirm" value="{{inputValue}}" maxlength="20"></input>
+</view>
+
+
+
+<block wx:for="{{maifangs}}" wx:for-item="maifangs" wx:if="{{containerShow}}">
+  <view catchtap="onHfdetail" data-postId="{{maifangs.id}}">
+    <template is="tjhf-Item" data="{{...maifangs}}"/>
+  </view>
+</block>
+
+<block wx:for="{{maifangs}}" wx:for-item="maifangs" wx:if="{{searchPanelShow}}">
+  <view catchtap="onHfdetail" data-postId="{{maifangs.id}}">
+    <template is="tjhf-Item" data="{{...maifangs}}"/>
+  </view>
+</block>

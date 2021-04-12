@@ -1,0 +1,52 @@
+
+<!-- <image class="hfxqdt" src="{{hf.src}}"></image> -->
+<view>
+  <swiper class="hflbt" indicator-dots="{{false}}" autoplay="{{false}}" indicator-dots="{{false}}" bindchange="handleSwiper">
+    <swiper-item>
+    <image class="hfxqdt" src="{{hf.src}}"></image></swiper-item>
+    <swiper-item><image class="hfxqdt" 
+    src="{{hf.src2}}"></image></swiper-item>
+    <swiper-item><image class="hfxqdt" 
+    src="{{hf.src3}}"></image></swiper-item>
+    <swiper-item><image class="hfxqdt" 
+    src="{{hf.src4}}"></image></swiper-item>
+  </swiper>
+  <view class="lbttxt"><text>{{current}}<text>/4</text></text></view>
+</view>
+<view class="hfxq">
+  <view class="hfxq-c">
+    <text class="title">{{hf.title}}</text>
+    <image class="hfxq-img" wx:if="{{collected}}" catchtap="onCollectionTap"  src="{{hf.scs}}"></image>
+    <image class="hfxq-img" wx:else catchtap="onCollectionTap" src="{{hf.sc}}"></image>
+    <view  class="hfxq-txt">
+      <text class="hfxq-txt1">{{hf.income}}</text>
+      <text class="hfxq-txt1">{{hf.author}}</text>
+      <text class="shoucang" catchtap="onCollectionTap">收藏</text>
+    </view>
+    <view class="jiage">{{hf.descript}}</view>
+  </view>
+</view>
+<view class="hr1"></view>
+<view class="txt">
+  <view class="txtmargin">
+    <text class="txt1">占地面积</text>
+    <text class="txt2">{{hf.zdmj}}</text>
+  </view>
+  <view class="txtmargin">
+    <text class="txt1">开盘时间</text>
+    <text>{{hf.kpsj}}</text>
+  </view>
+  <view class="txtmargin">
+    <text class="txt1">楼盘地址</text>
+    <text>{{hf.lpdz}}</text>
+  </view>
+</view>
+<view class="hr"></view>
+<view class="lpld">楼盘亮点</view>
+<view class="lpld-txt1">{{hf.lpld}}</view>
+<view class="lpld-txt">
+  <view class="lpld-txt2"><text>●</text>{{hf.pp}}</view>
+  <view class="lpld-txt2"><text>●</text>{{hf.wz}}</view>
+  <view class="lpld-txt2"><text>●</text>{{hf.jt}}</view>
+  <view class="lpld-txt2"><text>●</text>{{hf.zb}}</view>
+</view>

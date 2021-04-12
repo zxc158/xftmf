@@ -1,0 +1,52 @@
+<view>
+  <image class="wode-img" src="/images/shouye1.jpg"></image>
+</view>
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">获取头像昵称</button>
+
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+
+  </view>
+  <!-- <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view> -->
+</view>
+
+<text class="wdqy">我的权益</text>
+<view class="quanyi">
+  <view class="quanyi-c">
+  <image class="quanyi-img" src="{{wd.src1}}"></image>
+  <text class="quanyi-txt">{{wd.tags}}</text>
+  </view>
+  <view class="quanyi-c" >
+  <image  class="quanyi-img" src="{{wd.src2}}"></image>
+  <text class="quanyi-txt">{{wd.wdhd}}</text>
+  </view>
+  <view class="quanyi-c">
+  <image  class="quanyi-img" src="{{wd.src3}}"></image>
+  <text class="quanyi-txt">{{wd.wdjp}}</text>
+  </view>
+</view>
+<text class="wdqy">我的服务</text>
+<view class="quanyi">
+  <view class="quanyi-c">
+  <image class="quanyi-img" src="{{wd.src4}}"></image>
+  <text class="quanyi-txt">{{wd.txt1}}</text>
+  </view>
+  <view class="quanyi-c" >
+  <image  class="quanyi-img" src="{{wd.src5}}"></image>
+  <text class="quanyi-txt">{{wd.txt2}}</text>
+  </view>
+  <view class="quanyi-c">
+  <image  class="quanyi-img" src="{{wd.src6}}"></image>
+  <text class="quanyi-txt">{{wd.txt3}}</text>
+  </view>
+  <view class="quanyi-c">
+  <image  class="quanyi-img" src="{{wd.src7}}"></image>
+  <text class="quanyi-txt">{{wd.txt4}}</text>
+  </view>
+</view>

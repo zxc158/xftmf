@@ -1,0 +1,86 @@
+<import src="shouye-item/shouye-item.wxml"/>
+<image class="shouye-img" src="/images/shouye1.jpg"></image>
+<!-- <view class="search">
+  <text class="diqu">杭州</text>
+  <icon type="search" class="search-img" size="18" color="#405f80"></icon>
+  <input type="text" placeholder="输入楼盘名称搜索" placeholder-class="placeholder" bindfocus="onBindFocus" bindconfirm="onBindConfirm" value="{{inputValue}}" maxlength="20"></input>
+  <image wx:if="{{searchPanelShow}}" src="images/icon/xx.png" class="xx=img" catchtap="onCancelImgTap"></image>
+</view> -->
+<view>
+  <swiper indicator-dots="true" interval="5000"  autoplay="true">
+    <swiper-item><image 
+    src="{{lunbo.src1}}"></image></swiper-item>
+    <swiper-item><image 
+    src="{{lunbo.src2}}"></image></swiper-item>
+    <swiper-item><image 
+    src="{{lunbo.src3}}"></image></swiper-item>
+  </swiper>
+</view>
+
+<view class="gongneng">
+<block wx:for="{{shop}}" wx:for-item="shop">
+  <view class="gongneng1" catchtap="onzjxf" data-shopId="{{shop.id}}">
+    <image src="{{shop.icon}}"></image>
+    <text>{{shop.name}}</text>
+  </view>
+</block>
+  <!-- <view class="gongneng1">
+    <image src="/images/icons8-2.png"></image>
+    <text>购房优惠</text>
+  </view>
+  <view class="gongneng1">
+    <image src="/images/icons8-3.png"></image>
+    <text>我要咨询</text>
+  </view>
+  <view class="gongneng1">
+    <image src="/images/icons8-4.png"></image>
+    <text>帮我找房</text>
+  </view> -->
+</view>
+
+<!-- <view class="toutiao">
+  <text class="toutiao-txt1">楼盘头条</text>
+  <text class="toutiao-txt2">加倍宠粉|百万红包雨，好房7折起，秒杀赢6重礼</text>
+</view> -->
+
+<view class="hr"></view>
+
+<text class="scr-font1">热门活动</text>
+<text class="scr-font2" catchtap="onMorehd">查看全部 ></text>
+<view class="cast">
+  <scroll-view class="cast-img" scroll-x="true" style="width:100%">
+    <block wx:for="{{hd}}" wx:for-item="hd">
+    <view class="scr-container" catchtap="onHddetail" data-hdId="{{hd.id}}">
+      <image class="scr-img" src="{{hd.pic}}"></image>
+      <text class="scr-txt1">{{hd.title}}</text>
+      <text class="scr-txt2">{{hd.keywords}}</text>
+    </view>
+  </block>
+    <!-- <view class="scr-container">
+      <image class="scr-img" src="/images/tj1.png"></image>
+      <text class="scr-txt1">报名到访即享精美好礼</text>
+      <text class="scr-txt2">活动时间：11/06-12/31</text>
+    </view>
+    <view class="scr-container">
+      <image class="scr-img" src="/images/tj1.png"></image>
+      <text class="scr-txt1">报名到访即享精美好礼</text>
+      <text class="scr-txt2">活动时间：11/06-12/31</text>
+    </view>
+    <view class="scr-container">
+      <image class="scr-img" src="/images/tj1.png"></image>
+      <text class="scr-txt1">报名到访即享精美好礼</text>
+      <text class="scr-txt2">活动时间：11/06-12/31</text>
+    </view> -->
+  </scroll-view>
+</view>
+<!-- 推荐好房 -->
+<view class="hr"></view>
+
+<view class="tjhf-view">
+    <text class="tjhf">推荐好房</text>
+</view>
+<block wx:for="{{maifangs}}" wx:for-item="maifangs">
+  <view catchtap="onHfdetail" data-postId="{{maifangs.id}}">
+   <template is="tjhf-Item" data="{{...maifangs}}"/>
+  </view>
+</block>

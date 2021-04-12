@@ -1,0 +1,99 @@
+.hflbt{
+  width: 100%;
+  height: 450rpx;
+}
+.lbttxt{
+  width: 50px;
+  height: 22px;
+  background-color: #000;
+  position: absolute;
+  top: 370rpx;
+  left: 85%;
+  color: #fff;
+  border-radius: 20px;
+  text-align: center;
+  border:1px solid rgb(182, 182, 182);
+}
+.hfxqdt{
+  width: 100%;
+  height: 450rpx;
+}
+.hfxq{
+  /* display: flex;
+  flex-direction: row; */
+  margin: 20rpx 20rpx;
+}
+.hfxq-c{
+  /* display: flex;
+  flex-direction: column; */
+}
+.title{
+  font-size:28px;
+}
+.hfxq-txt{
+  height: 60rpx;
+}
+.hfxq-txt1{
+  color: #333;
+  margin-right: 20rpx;
+  background-color: #eeeeee;
+  font-size: 28rpx;
+  margin-top: 20rpx;
+}
+.shoucang{
+  float: right;
+}
+.jiage{
+  color: red;
+}
+.hfxq-img{
+  width: 60rpx;
+  height: 60rpx;
+  float: right;
+}
+.hr1{
+  margin: 40rpx auto 20rpx;
+  height: 1px;
+  width: 95%;
+  background-color: rgb(204, 204, 204);
+}
+/* 文字区域 */
+.txt{
+  margin-left: 20rpx;
+  font-size: 18px;
+}
+.txtmargin{
+  margin-top: 30rpx;
+}
+.txt1{
+  margin-right: 40rpx;
+  color: rgb(100, 100, 100);
+}
+.hr{
+  margin: 40rpx 0rpx 30rpx;
+  height: 10px;
+  width: 100%;
+  background-color: rgb(233, 231, 231);
+}
+.lpld{
+  font-size: 22px;
+  margin-left: 20rpx;
+  font-weight: 700;
+}
+.lpld-txt1{
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+  color: #333;
+}
+.lpld-txt{
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+  color: rgb(22, 22, 22);
+}
+.lpld-txt2{
+  margin-top: 10rpx;
+
+}
+.lpld-txt2 text {
+  color: rgb(255, 166, 0);
+}

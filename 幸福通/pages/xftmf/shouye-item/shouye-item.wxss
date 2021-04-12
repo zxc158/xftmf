@@ -1,0 +1,50 @@
+
+
+.tj{
+  display: flex;
+  flex-direction: row;
+  height: 200rpx;
+  width: 100%;
+  margin: 20rpx 0 50rpx 30rpx;
+}
+.tj1{
+  /* display: flex;
+  flex-direction:column; */
+  margin-right: 10rpx;
+}
+.tj1-img{
+  width: 300rpx;
+  height: 200rpx;
+  border-radius: 5px;
+}
+.tj2{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.tj2 text{
+  margin-bottom: 10rpx ;
+}
+.tj2-txt1{
+  font-size: 36rpx;
+  font-weight: 600;
+}
+.tj2-txt2{
+  font-size: 28rpx;
+  color: #333;
+}
+.tj2-txt3{
+  font-size: 36rpx;
+  color: #ff0000;
+  font-weight: 500;
+}
+.tj2-view{
+  display: flex;
+  flex-direction: row;
+}
+.tj2-view text{
+  color: #333;
+  margin-right: 20rpx;
+  background-color: #eeeeee;
+  font-size: 26rpx;
+}

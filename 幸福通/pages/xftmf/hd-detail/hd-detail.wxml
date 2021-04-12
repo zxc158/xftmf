@@ -1,0 +1,19 @@
+<image class="hdimg" src='{{hd.pic}}'></image>
+<view class="title">{{hd.title}}</view>
+<view class="hd-txt">
+  <text class="txt1">{{hd.hdsj}}</text>
+</view>
+<view class="hd-txt">
+  <text class="txt1">{{hd.hddd}}</text>
+</view>
+<view class="hr"></view>
+<view class="hdjj">
+  <view class="hdjj-txt">活动简介</view>
+  <view>{{hd.hdjj}}</view>
+</view>
+
+<view class="hr"></view>
+<view class="hdjj">
+  <view class="hdjj-txt">活动规则</view>
+  <view>{{hd.hdjj}}</view>
+</view>

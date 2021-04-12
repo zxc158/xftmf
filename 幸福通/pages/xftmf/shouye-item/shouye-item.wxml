@@ -1,0 +1,59 @@
+<template name="tjhf-Item"> 
+  <view class="tj">
+    <view class="tj1">
+      <image class="tj1-img" src="{{pic}}"></image>
+    </view>
+    <view class="tj2">
+      <text class="tj2-txt1">{{title}}</text>
+      <text class="tj2-txt2">{{tags}}</text>
+      <text class="tj2-txt3">{{descript}}</text>
+      <view class="tj2-view">
+        <text class="tj2-view-txt1">{{income}}</text>
+        <text class="tj2-view-txt2">{{author}}</text>
+      </view>
+    </view>
+  </view>
+</template>
+  <!-- <view class="tj">
+    <view class="tj1">
+      <image class="tj1-img" src="/images/tj2.jpg"></image>
+    </view>
+    <view class="tj2">
+      <text class="tj2-txt1">越秀·星悦城</text>
+      <text class="tj2-txt2">杭州市|临安市</text>
+      <text class="tj2-txt3">约23000元/m²</text>
+      <view class="tj2-view">
+        <text class="tj2-view-txt1">硅谷小镇</text>
+        <text class="tj2-view-txt2">地铁红盘</text>
+      </view>
+    </view>
+  </view>
+  <view class="tj">
+    <view class="tj1">
+      <image class="tj1-img" src="/images/tj3.jpg"></image>
+    </view>
+    <view class="tj2">
+      <text class="tj2-txt1">越秀·悦映城</text>
+      <text class="tj2-txt2">杭州市|临安市</text>
+      <text class="tj2-txt3">18000-26000元/m²</text>
+      <view class="tj2-view">
+        <text class="tj2-view-txt1">小户型</text>
+        <text class="tj2-view-txt2">地铁沿线</text>
+      </view>
+    </view>
+  </view>
+  <view class="tj">
+    <view class="tj1">
+      <image class="tj1-img" src="/images/tj4.jpg"></image>
+    </view>
+    <view class="tj2">
+      <text class="tj2-txt1">越秀·前滩名邸|天萃名邸</text>
+      <text class="tj2-txt2">杭州市|江干区</text>
+      <text class="tj2-txt3">44300-52000元/m²</text>
+      <view class="tj2-view">
+        <text class="tj2-view-txt1">主城核芯</text>
+        <text class="tj2-view-txt2">双地铁盘</text>
+      </view>
+    </view>
+  </view> -->
+  

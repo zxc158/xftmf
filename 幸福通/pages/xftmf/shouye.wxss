@@ -1,0 +1,164 @@
+@import "shouye-item/shouye-item.wxss";
+.shouye-img{
+  width: 100%;
+  height: 400rpx;
+  margin-bottom: 20rpx;
+  border-radius: 0 0 10px 10px;
+}
+
+swiper{
+  width:100%;
+  height:450rpx;
+  /* margin-left: 20px; */
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  border-radius: 5px;
+  text-align: center;
+}
+
+swiper image{
+  width:90%;
+  height:450rpx;
+}
+.search{
+  background-color: #fff;
+  height: 70rpx;
+  width: 680rpx;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  left: 35rpx;
+  top: 320rpx;
+  
+}
+.diqu{
+  margin-top: 13rpx;
+  margin-left: 13rpx;
+}
+.search-img{
+  margin: auto 0 auto 20rpx;
+}
+.search input{
+  height: 100%;
+  width: 500rpx;
+  margin-left: 20px;
+  font-size: 28rpx;
+}
+.placeholder{
+  font-size: 14px;
+  /* color: #d1d1d1; */
+  margin-left: 20rpx;
+}
+.search-panel{
+  position: absolute;
+  top: 80rpx;
+}
+.xx-img{
+  height: 30rpx;
+  width: 30rpx;
+  margin: auto 0 auto 10rpx;
+}
+/* 功能区 */
+.gongneng{
+  width: 100%;
+  height: 150rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  margin-bottom: 30rpx;
+}
+.gongneng image{
+  width: 50px;
+  height: 50px;
+  margin-right: 50rpx;
+}
+.gongneng1{
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+}
+/* 楼盘头条 */
+.toutiao{
+  width: 600rpx;
+  height: 100rpx;
+  margin-left: 70rpx;
+  display: flex;
+  flex-direction: row;
+  /* text-align: center; */
+  /* justify-content:center;
+  align-items: center; */
+  border:1px solid #ccc;
+  box-shadow:0px 0px 8px #ccc;
+}
+.toutiao-txt1{
+  font-weight: 800;
+  margin: auto 20rpx;
+  font-size: 16px;
+}
+.toutiao-txt2{
+  margin: auto 20rpx;
+  width: 600rpx;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.hr{
+  margin: 40rpx 0rpx 20rpx;
+  height: 10px;
+  width: 100%;
+  background-color: rgb(233, 231, 231);
+}
+/* 热门活动 */
+.cast{
+  margin-left: 40rpx;
+  margin-top: 20rpx;
+}
+
+.scr-font1{
+  font-size: 26px;
+  margin-left: 40rpx;
+}
+.scr-font2{
+  color: rgb(175, 175, 175);
+  margin: auto 20rpx;
+  float: right;
+}
+.cast-img{
+  white-space: nowrap;
+}
+.scr-container{
+  display: inline-flex;
+  flex-direction: column;
+  margin:30rpx 50rpx 0 0;
+  white-space: nowrap;
+}
+.scr-img{
+  width: 369rpx;
+  height: 207rpx;
+  border-radius: 5px;
+}
+.scr-txt1{
+  font-size: 14px;
+}
+.scr-txt2{
+  font-size: 12px;
+  color: rgb(175, 175, 175);
+
+}
+
+/* 推荐好房 */
+.tjhf-view{
+  margin: 20rpx 0 0 20rpx;
+  margin-bottom: 40rpx;
+}
+.tjhf{
+  font-size: 26px;
+  margin-left: 20rpx;
+  
+}
+.ckgd{
+  color: rgb(175, 175, 175);
+  margin: auto 20rpx ;
+  float: right;
+}
